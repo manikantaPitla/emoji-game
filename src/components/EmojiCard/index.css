@@ -1,0 +1,49 @@
+.emoji-card {
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 35px;
+  cursor: pointer;
+}
+
+.emoji-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.emoji-image {
+  width: 90px;
+}
+
+@media (max-width: 1200px) {
+  .emoji-card {
+    margin: 10px;
+    padding: 30px;
+  }
+
+  .emoji-image {
+    width: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .emoji-card {
+    margin: 10px;
+    padding: 30px;
+  }
+
+  .emoji-image {
+    width: 50px;
+  }
+}
+@media (max-width: 420px) {
+  .emoji-card {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .emoji-image {
+    width: 30px;
+  }
+}

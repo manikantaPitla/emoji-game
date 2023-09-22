@@ -1,0 +1,51 @@
+.navigation {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff33;
+}
+
+.logo {
+  width: 50px;
+}
+
+.page-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.game-name {
+  margin: 0;
+  margin-left: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.game-score-container {
+  display: flex;
+  align-items: center;
+}
+
+.score-got,
+.total-score-got {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0px 10px;
+}
+
+@media (max-width: 450px) {
+  .game-score-container {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 40px;
+  }
+
+  .game-name {
+    font-size: 18px;
+  }
+}

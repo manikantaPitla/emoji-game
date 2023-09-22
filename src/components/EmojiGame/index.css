@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.main-container {
+  min-height: 100vh;
+  background-image: linear-gradient(145deg, #9796f0, #fbc7d4);
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+}
+
+.emoji-container {
+  width: 60%;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1250px) {
+  .emoji-container {
+    width: 60%;
+  }
+}
+@media (max-width: 1150px) {
+  .emoji-container {
+    width: 70%;
+  }
+}
+@media (max-width: 970px) {
+  .emoji-container {
+    width: 80%;
+  }
+}
+@media (max-width: 840px) {
+  .emoji-container {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .emoji-container {
+    width: 90%;
+  }
+}
+@media (max-width: 460px) {
+  .emoji-container {
+    width: 98%;
+  }
+}
